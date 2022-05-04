@@ -28,7 +28,7 @@ jobs:
     working_directory: ~/rails-docker-mit15/src
     steps:
       - checkout:
-          path: ~/rails-docker-mits15
+          path: ~/rails-docker-mit15
       - ruby/install-deps
       - run:
           name: Database setup
